@@ -1,0 +1,134 @@
+body {
+	font-family: "Helvetica";
+}
+
+header {
+	width:100%;
+	height:300px;
+	background-image: url("https://iso.500px.com/wp-content/uploads/2014/07/hong-kong-cityscape1.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+.container {
+	width:990px;
+	margin:0px auto;
+	display:block;
+}
+
+.left,.right {
+	vertical-align: top;
+}
+
+
+
+.left {
+	width:25%;
+	display:inline-block;
+}
+
+.right {
+	width:60%;
+	margin-left:10%;
+	display:inline-block;
+	margin-top:75px;
+}
+
+.logo {
+	border: 5px solid white;
+    border-radius: 100%;
+    display: block;
+    margin: -84px 0 0;
+    max-width: 150px;
+    margin-bottom:30px;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	line-height:1.4em;
+}
+
+img {
+	max-width:100%;
+}
+
+.left h2 {
+	color:#666666;
+	font-size:22px;
+	text-transform: uppercase;
+	margin-bottom:30px;
+}
+
+.left h3 {
+	color:#AAAAAA;
+	font-size:18px;
+	padding-bottom:18px;
+	border-bottom:2px solid grey;
+	margin-bottom:30px;
+}
+
+.left h4 {
+	color:#666666;
+	font-size:22px;
+	text-transform: uppercase;
+	margin-bottom:25px;
+}
+
+.left input {
+	border:2px solid #E5E5E5;
+	padding:5px 10px;
+}
+
+
+.right h2 {
+	font-size:37px;
+	font-weight:600;
+	color:#3C474D;
+	margin-bottom:42px;
+}
+
+.right h4 {
+	font-style:italic;
+	margin-bottom:30px;
+}
+
+.right img {
+	margin-bottom:30px;
+}
+
+.right p {
+	margin-bottom:25px;
+}
+
+.blog {
+	margin-bottom:90px;
+}
+
+
+.floater {
+	width:300px;
+	position: fixed;
+	bottom:10px;
+	right:20px;
+	border:2px solid grey;
+	padding:10px;
+	background-color:white;
+}
+
+.floater h3 span {
+	float:right;
+}
+
+.floater .bottom > div {
+	width:28%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.floater .right {
+	margin-top:0;
+}
+
+.floater h4, .floater h5 {
+	font-size:12px;
+	text-align: center;
+}
